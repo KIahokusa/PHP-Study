@@ -4,4 +4,9 @@
 $num = 9;
 
 // TODO: ここにコードを追記
-echo $num;
+
+if ($num * 3) {
+    echo "3の倍数\n";
+} elseif ($sum * 2) {
+    echo "3の倍数ではない\n";
+}

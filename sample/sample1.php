@@ -58,7 +58,7 @@ echo "========================================================\n";
 // 条件式
 // https://www.tohoho-web.com/php/control.html#if
 
-$num = 9;
+$num = 10;
 
 if ($num == 10) {
     echo "numは10です\n";

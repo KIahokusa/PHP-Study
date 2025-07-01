@@ -4,4 +4,11 @@
 $num = -5;
 
 // TODO: ここにコードを追記
-echo $num;
+
+if ($num < 2) {
+    echo "正の数です\n";
+} elseif ($num < 0) {
+    echo "ゼロです\n";
+} elseif ($num > -6) {
+    echo "負の数です\n";
+}
