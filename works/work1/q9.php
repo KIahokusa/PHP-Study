@@ -4,4 +4,10 @@
 $num = 7;
 
 // TODO: ここにコードを追記
-echo $num;
+
+if($num < 10 ){
+    echo "一桁の数です\n";
+}
+elseif($num >10 ){
+    echo "二桁以上です\n";
+}

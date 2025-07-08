@@ -9,6 +9,6 @@ $num2 = 10;
 
 if ($num1 == 10 && $num2 == 10) {
     echo "等しい\n";
-} elseif ($num == 9 && $num2 == 9) {
+} elseif ($num == 10 && $num2 == 10) {
     echo "等しくない\n";
 }

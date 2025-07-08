@@ -4,4 +4,10 @@
 $num = 12;
 
 // TODO: ここにコードを追記
-echo $num;
+
+if($num >=5 && $num <=15){
+    echo "範囲内です\n";
+}
+elseif($num >=5 && $num <=10){
+    echo "範囲外です\n";
+}
