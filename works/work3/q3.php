@@ -35,12 +35,7 @@ if (average($values) === 0) {
 // ここにコードを追記
 function average($values)
 {
-    if (isset($result) - $values) {
-        return;
-    } elseif (isset($values) == 0) {
-        return;
-    } elseif (isset($values) == 0) {
-        return;
+    if (empty($values) == 0) {
+        return array_sum($values) / count($values);
     }
-    echo "$values\n";
 }
