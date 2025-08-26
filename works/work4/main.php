@@ -11,6 +11,10 @@ showUserStatus($subUser);
 
 $mainUser->setName("佐藤");
 $mainUser->setage(30);
+$subUser->setname("伊藤");
+$subUser->setage(21);
+$mainUser->getOlder();
+$subUser->getOlder();
 
 showUserStatus($mainUser);
 showUserStatus($subUser);
